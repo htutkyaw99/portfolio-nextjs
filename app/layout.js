@@ -1,19 +1,20 @@
-import { Outfit, Ovo} from "next/font/google";
+import { Outfit, Ovo } from "next/font/google";
 import "./globals.css";
 
 const outfit = Outfit({
-  subsets: ["latin"], weight: ["400", "500", "600", "700"]
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
 });
 
 const ovo = Ovo({
-  subsets: ["latin"], weight: ["400"]
+  subsets: ["latin"],
+  weight: ["400"],
 });
 
-
-
 export const metadata = {
-  title: "Portfolio - GreatStack",
-  description: "",
+  title: "Ye Htut Kyaw",
+  description:
+    "A passionate web developer specializing in modern, responsive, and user-friendly websites using React, Next JS, and Laravel.",
 };
 
 export default function RootLayout({ children }) {
