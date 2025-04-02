@@ -106,24 +106,22 @@ export const assets = {
 
 export const workData = [
   {
-    title: "Frontend project",
-    description: "Web Design",
-    bgImage: "/work-1.png",
+    title: "Netflix Clone",
+    description: "A movie website",
+    image: "/netflix.png",
+    techStack: ["React", "TailwindCSS", "tmdb API"],
   },
   {
-    title: "Geo based app",
-    description: "Mobile App",
-    bgImage: "/work-2.png",
+    title: "Jobi",
+    description: "An app for job seekers",
+    image: "/jobi.png",
+    techStack: ["React", "TailwindCSS"],
   },
   {
-    title: "Photography site",
-    description: "Web Design",
-    bgImage: "/work-3.png",
-  },
-  {
-    title: "UI/UX designing",
-    description: "UI/UX Design",
-    bgImage: "/work-4.png",
+    title: "XChange",
+    description: "A user-friendly currency exchange app",
+    image: "/currency_exchange.png",
+    techStack: ["Blade", "TailwindCSS", "Laravel"],
   },
 ];
 
@@ -158,12 +156,6 @@ export const infoList = [
     title: "Education",
     description: "BE in Information Technology",
   },
-  // {
-  //   icon: assets.project_icon,
-  //   iconDark: assets.project_icon_dark,
-  //   title: "Projects",
-  //   description: "Built more than 5 projects",
-  // },
 ];
 
 export const toolsData = [
