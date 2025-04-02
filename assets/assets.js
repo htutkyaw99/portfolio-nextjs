@@ -51,7 +51,12 @@ import mysql_logo from "./mysql_logo.svg";
 import php_logo from "./php_logo.svg";
 import express_logo from "./express_logo.svg";
 
+import profile_yhk from "./profile_yhk.png";
+import about_yhk from "./about_yhk.png";
+
 export const assets = {
+  about_yhk,
+  profile_yhk,
   user_image,
   code_icon,
   code_icon_dark,
