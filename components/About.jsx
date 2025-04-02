@@ -3,6 +3,10 @@ import Image from "next/image";
 import React from "react";
 import { motion } from "motion/react";
 
+import { FaLinkedin } from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
+import { FaGithub } from "react-icons/fa";
+
 const About = ({ isDarkMode }) => {
   return (
     <motion.div
@@ -66,7 +70,7 @@ const About = ({ isDarkMode }) => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 1 }}
-            className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-2xl"
+            className="grid grid-cols-1 xl:grid-cols-2 gap-6 max-w-2xl"
           >
             {infoList.map(({ icon, iconDark, title, description }, index) => (
               <motion.li
@@ -89,31 +93,29 @@ const About = ({ isDarkMode }) => {
             ))}
           </motion.ul>
 
-          {/* <motion.h4
-            initial={{ y: 20, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
-            transition={{ delay: 1.3, duration: 0.5 }}
-            className="my-6 text-gray-700 font-Ovo dark:text-white/80"
-          >
-            Tools I use
-          </motion.h4>
-
-          <motion.ul
+          <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            transition={{ delay: 1.5, duration: 0.6 }}
-            className="flex items-center gap-3 sm:gap-5"
+            transition={{ duration: 0.8 }}
           >
-            {toolsData.map((tool, index) => (
-              <motion.li
-                whileHover={{ scale: 1.1 }}
-                className="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
-                key={index}
-              >
-                <Image src={tool} alt="Tool" className="w-5 sm:w-7" />
-              </motion.li>
-            ))}
-          </motion.ul> */}
+            <ul className="font-semibold text-gray-700 dark:text-white mt-10 flex items-center gap-5 justify-center lg:justify-start">
+              <li className="hover:scale-110 duration-300">
+                <a href="https://github.com/htutkyaw99">
+                  <FaGithub className="text-3xl" />
+                </a>
+              </li>
+              <li className="hover:scale-110 duration-300">
+                <a href="mailto:htutkyaw9999@gmail.com">
+                  <SiGmail className="text-3xl" />
+                </a>
+              </li>
+              <li className="hover:scale-110 duration-300">
+                <a href="https://www.linkedin.com/in/yehtutkyaw99">
+                  <FaLinkedin className="text-3xl" />
+                </a>
+              </li>
+            </ul>
+          </motion.div>
         </motion.div>
       </motion.div>
     </motion.div>
