@@ -107,24 +107,30 @@ export const assets = {
 export const workData = [
   {
     title: "Netflix Clone",
-    description: "A movie website",
+    description:
+      "A feature-rich movie streaming platform built with React and TailwindCSS, powered by the TMDB API",
     image: "/netflix.png",
+    github: "https://github.com/htutkyaw99/netflix-clone",
     techStack: ["React", "TailwindCSS", "tmdb API"],
   },
   {
     title: "Jobi",
-    description: "An app for job seekers",
+    description:
+      "A modern job search platform designed for job seekers to explore opportunities effortlessly. Built with React and TailwindCSS.",
     image: "/jobi.png",
+    github: "https://github.com/htutkyaw99/job-search",
     techStack: ["React", "TailwindCSS"],
   },
   {
     title: "XChange",
-    description: "A user-friendly currency exchange app",
+    description:
+      "A sleek currency exchange app with real-time conversion, rate tables, and historical graphs. Built with Laravel, Blade, and TailwindCSS for a smooth user experience.",
     image: "/currency_exchange.png",
+    github: "https://github.com/htutkyaw99/exchange",
     techStack: ["Blade", "TailwindCSS", "Laravel"],
   },
 ];
-
+8;
 export const serviceData = [
   {
     icon: assets.web_icon,
