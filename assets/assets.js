@@ -108,26 +108,36 @@ export const workData = [
   {
     title: "Netflix Clone",
     description:
-      "A feature-rich movie streaming platform built with React and TailwindCSS, powered by the TMDB API",
+      "A responsive and dynamic movie streaming platform built with React and TailwindCSS, featuring real-time content powered by the TMDB API. Includes movie browsing, search, and category-based filtering.",
     image: "/netflix.png",
     github: "https://github.com/htutkyaw99/netflix-clone",
-    techStack: ["React", "TailwindCSS", "tmdb API"],
+    techStack: ["React", "TailwindCSS", "TMDB API"],
   },
   {
-    title: "Jobi",
+    title: "Issue Flow",
     description:
-      "A modern job search platform designed for job seekers to explore opportunities effortlessly. Built with React and TailwindCSS.",
-    image: "/jobi.png",
-    github: "https://github.com/htutkyaw99/job-search",
-    techStack: ["React", "TailwindCSS"],
+      "A modern issue tracker built to manage tasks efficiently with React and its ecosystem. Featuring filtering, sorting, and search for seamless issue management.",
+    image: "/issue.png",
+    github: "https://github.com/htutkyaw99/issue-swr",
+    techStack: [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Zustand",
+      "SWR",
+      "Radix UI",
+      "React Hook Form",
+      "Zod",
+      "Axios",
+    ],
   },
   {
-    title: "XChange",
+    title: "Digibi Landing Page",
     description:
-      "A sleek currency exchange app with real-time conversion, rate tables, and historical graphs. Built with Laravel, Blade, and TailwindCSS for a smooth user experience.",
-    image: "/currency_exchange.png",
-    github: "https://github.com/htutkyaw99/exchange",
-    techStack: ["Blade", "TailwindCSS", "Laravel"],
+      "A fully responsive landing page built with HTML, CSS, and Vanilla JavaScript to sharpen front-end skills. Focused on clean design, layout techniques, and interactivity. GitHub version includes filtering, sorting, and search functionality.",
+    image: "/digibi.png",
+    github: "https://github.com/htutkyaw99/digibi_landingpage",
+    techStack: ["HTML", "CSS", "JavaScript"],
   },
 ];
 8;
